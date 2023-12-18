@@ -18,7 +18,8 @@ import static digital.naomie.VeinMine.MOD_ID;
 public class VeinMineConfig {
 
     public boolean ShiftToActivate = true;
-    public int maxBlocks = 64;
+    public int maxBlocks = 16;
+    public int maxDistance = 8;
     public List<String> veinMineableBlocks = List.of(
             Registries.BLOCK.getId(Blocks.COAL_ORE).toString(),
             Registries.BLOCK.getId(Blocks.IRON_ORE).toString(),
